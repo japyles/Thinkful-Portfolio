@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: #d5e7c4; ;
+    background-color: #d5e7c4;
 }
 
 hr {
@@ -18,10 +18,14 @@ hr {
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    margin: 25px 25px 10px 25px;
-    padding: 35px 50px;
+    margin: 25px 25px 0 25px;
+    padding: 38px 50px;
     background-color: #fd795d;
-    color: #403843;
+}
+
+#site-header > h2 {
+    color: #025269;
+    text-transform: uppercase;
 }
 
 #site-nav li {
@@ -42,7 +46,6 @@ hr {
 
 .container {
     margin: 0 25px;
-    /* background-color: #009c91; */
     background: #6aa0ae;
     color: #d5e7c4;
 }
@@ -113,8 +116,9 @@ section {
 }
 
 #footer {
+    margin: 5px 25px 25px 25px;
     text-align: center;
     padding: 25px;
     background-color: #fd795d;
-    color: #403843;
+    color: #025269;
 }
