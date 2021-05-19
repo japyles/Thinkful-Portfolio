@@ -42,7 +42,6 @@ hr {
 
 #site-nav li a:link {
     text-decoration: none;
-    /* color: #e9edf6; */
     color: #000;
 }
 
@@ -71,7 +70,7 @@ hr {
     font-family: Arial, sans-serif;
 }
 
-.container > h3 {
+.container > h2 {
     margin: 10px 500px;
     text-align: center;
     text-transform: uppercase;
@@ -170,6 +169,5 @@ section {
     text-align: center;
     padding: 25px;
     background-color: #fd795d;
-    /* color: #e9edf6; */
     color: #000;
 }
