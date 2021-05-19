@@ -24,7 +24,8 @@ hr {
 }
 
 #site-header > h2 {
-    color: #e9edf6;
+    /* color: #e9edf6; */
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -41,7 +42,8 @@ hr {
 
 #site-nav li a:link {
     text-decoration: none;
-    color: #e9edf6;
+    /* color: #e9edf6; */
+    color: #000;
 }
 
 #site-nav li a:hover {
@@ -168,5 +170,6 @@ section {
     text-align: center;
     padding: 25px;
     background-color: #fd795d;
-    color: #e9edf6;
+    /* color: #e9edf6; */
+    color: #000;
 }
