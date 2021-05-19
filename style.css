@@ -80,12 +80,24 @@ section {
 #introduction {
     line-height: 1.5em;
     padding-bottom: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 #introduction > h2 {
     text-transform: uppercase;
-    padding: 25px;
+    padding: 25px 25px 40px 25px;
     text-align: center;
+    font-size: 3em;
+}
+
+#introduction > h3 {
+    font-size: 2em;
+}
+
+#introduction > h4 {
+    padding-top: 15px;
+    font-size: 1.5em;
 }
 
 #about {
@@ -97,6 +109,22 @@ section {
     text-transform: uppercase;
     padding: 25px;
     text-align: center;
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+}
+
+#about p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#about > p > a:link {
+    text-decoration: none;
+    color: #e9edf6;
+}
+
+#about > p > a:hover {
+    color: #fd795d;
 }
 
 #contact {
@@ -108,11 +136,27 @@ section {
     text-transform: uppercase;
     padding: 25px;
     text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+}
+
+#contact p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#contact > ol > li {
+    list-style-position: inside;
 }
 
 #contact a:link {
     text-decoration: none;
-    color: #d5e7c4; 
+    color: #e9edf6;
+    font-size: 1.2em;
+}
+
+#contact a:hover {
+    color: #fd795d;
 }
 
 #footer {
