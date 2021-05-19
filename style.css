@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #d5e7c4; ;
+}
+
+hr {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+#site-header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 25px 25px 10px 25px;
+    padding: 35px 50px;
+    background-color: #fd795d;
+    color: #403843;
+}
+
+#site-nav li {
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+    letter-spacing: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+#site-nav li a:link {
+    text-decoration: none;
+    color: #025269
+}
+
+.container {
+    margin: 0 25px;
+    /* background-color: #009c91; */
+    background: #6aa0ae;
+    color: #d5e7c4;
+}
+
+#main-img > img {
+    display: block;
+    margin: 25px auto 25px auto;
+    width: 50%;
+}
+
+.container > h1 {
+    margin: 10px 500px;
+    text-align: center; 
+    padding: 25px 0 0 0;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: Arial, sans-serif;
+}
+
+.container > h3 {
+    margin: 10px 500px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin: 10px 500px;
+}
+
+#introduction {
+    line-height: 1.5em;
+    padding-bottom: 25px;
+}
+
+#introduction > h2 {
+    text-transform: uppercase;
+    padding: 25px;
+    text-align: center;
+}
+
+#about {
+    line-height: 1.5em;
+    padding-bottom: 25px;
+}
+
+#about > h2 {
+    text-transform: uppercase;
+    padding: 25px;
+    text-align: center;
+}
+
+#contact {
+    line-height: 1.5em;
+    padding-bottom: 25px;
+}
+
+#contact > h2 {
+    text-transform: uppercase;
+    padding: 25px;
+    text-align: center;
+}
+
+#contact a:link {
+    text-decoration: none;
+    color: #d5e7c4; 
+}
+
+#footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #fd795d;
+    color: #403843;
+}
