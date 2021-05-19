@@ -24,7 +24,7 @@ hr {
 }
 
 #site-header > h2 {
-    color: #025269;
+    color: #e9edf6;
     text-transform: uppercase;
 }
 
@@ -41,13 +41,17 @@ hr {
 
 #site-nav li a:link {
     text-decoration: none;
-    color: #025269
+    color: #e9edf6;
+}
+
+#site-nav li a:hover {
+    color: #025269;
 }
 
 .container {
     margin: 0 25px;
-    background: #6aa0ae;
-    color: #d5e7c4;
+    background: #e9edf6;
+    color: #025269;
 }
 
 #main-img > img {
@@ -120,7 +124,7 @@ section {
 
 #about > p > a:link {
     text-decoration: none;
-    color: #e9edf6;
+    color: #526902;
 }
 
 #about > p > a:hover {
@@ -151,7 +155,7 @@ section {
 
 #contact a:link {
     text-decoration: none;
-    color: #e9edf6;
+    color: #526902;
     font-size: 1.2em;
 }
 
@@ -164,5 +168,5 @@ section {
     text-align: center;
     padding: 25px;
     background-color: #fd795d;
-    color: #025269;
+    color: #e9edf6;
 }
